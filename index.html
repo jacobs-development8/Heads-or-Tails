@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>First Player to 5 Wins</h1>
+
+    <div class="players-score">
+        <p>Player selected: <span class="bold" id="playerOneSelected"></span></p>
+
+        <p>Computer selected: <span class="bold" id="comOneSelected"></span></p>
+    </div>
+
+    <img src="images/heads.svg">
+
+    <div class="players-score">
+        <p>Player score: <span class="bold" id="playerOneScore">0</span></p>
+
+        <p>Computer score: <span class="bold" id="computerScore">0</span></p>
+    </div>
+
+    <h2>Make Selection</h2>
+
+    <div class="btn-grp">
+        <button data-type="heads">heads</button>
+        <button data-type="tails">tails</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
